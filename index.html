@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .WorkSon1 {
+            background: url('image/1\ \(1\).jpeg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .WorkSon2 {
+            background: url('image/1\ \(1\).jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .WorkSon3 {
+            background: url('image/1\ \(2\).jpg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!---------Header Design Code----->
+    <header>
+        <div class="logo"> <span>Anil</span> Soren.</div>
+        <ul id="Menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="bi bi-x-lg" onclick="Close()"></i>
+        </ul>
+        <div id="MenuBtn">
+            <i class="bi bi-list" onclick="Open()"></i>
+        </div>
+    </header>
+
+    <!-------Front Design Code---->
+
+    <div class="Father" id="home">
+
+        <div class="Son">
+            <h2>UI/UX Designer</h2>
+            <h1>Hi, I'm <span>Anil</span> </h1>
+            <h1>From Bokaro City</h1>
+        </div>
+        <div class="Son">
+            <div class="photo">
+                <img src="image/Untitled.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!------About Page Design Code-->
+    <div class="Father" id="about">
+        <div class="Son">
+            <div class="photos">
+                <img src="image/rrrrr.jpeg" alt="">
+            </div>
+        </div>
+        <div class="Son">
+            <h1>About Me</h1>
+            <p>Anil Soren is an MCA post graduate from Ranchi University, currently working in the IT sector while also teaching students. Passionate about technology and education, he strives to inspire and empower the next generation of learners.</p>
+            <h2><span>Skills</span></h2>
+            <ol id="Skills">
+                <li><i class="bi bi-check2-square"></i> &nbsp;UI Designer</li>
+                <li><i class="bi bi-check2-square"></i> &nbsp;Web Developer</li>
+                <li><i class="bi bi-check2-square"></i> &nbsp;Android Developer</li>
+                <li><i class="bi bi-check2-square"></i> &nbsp;Hardware Engineer</li>
+                <li><i class="bi bi-check2-square"></i> &nbsp;System Engineer</li>
+            </ol>
+        </div>
+    </div>
+
+    <!--------Service Header-->
+    <div class="Service" id="service">
+        <h1>My Service</h1>
+    </div>
+    <!-------My Service Design Code----->
+    <div class="Mother">
+        <div class="Son">
+            <h1><i class="bi bi-code-slash"></i></h1>
+            <h2>Web Design</h2>
+            <p>A web developer designs and builds websites, combining technical skills with creativity to create user-friendly and functional online experiences.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="Son">
+            <h1><i class="bi bi-subtract"></i></h1>
+            <h2>UI/UX Designer</h2>
+            <p>A UI designer crafts visually engaging and user-friendly interfaces for websites and apps, ensuring a seamless user experience.</p>
+            <a href="#">Learn more</a>
+        </div>
+        <div class="Son">
+            <h1><i class="bi bi-android2"></i></h1>
+            <h2>App Designer</h2>
+            <p>An app developer designs and builds mobile applications, focusing on functionality and user experience to create engaging and efficient software.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </div>
+    <div class="Footer Foot">
+        <button>See more</button>
+    </div>
+    <!--------Work Header-->
+    <div class="Service" id="portfolio">
+        <h1>My best Work</h1>
+    </div>
+    <!-------My Work Desing Code---->
+    <div class="Work">
+        <div class="WorkSon WorkSon1">
+
+            <div class="Data">
+                <h3>Weather Apk</h3>
+                <p>A weather app provides real-time forecasts and updates, allowing users to easily track and plan for changing weather conditions.</p>
+                <button>CVisit</button>
+            </div>
+        </div>
+        <div class="WorkSon WorkSon2">
+
+            <div class="Data">
+                <h3>Whatsapp Apk</h3>
+                <p>A WhatsApp clone app replicates the core features of WhatsApp, enabling users to send messages, make voice and video calls, and share media while maintaining a familiar user interface.</p>
+                <button>CVisit</button>
+            </div>
+        </div>
+        <div class="WorkSon WorkSon3">
+
+            <div class="Data">
+                <h3>College Portals</h3>
+                <p>College portals provide students and faculty with access to academic resources, grades, and communication tools in one convenient online platform.</p>
+                <button>CVisit</button>
+            </div>
+        </div>
+    </div>
+    <div class="Footer Foot">
+        <button>See more</button>
+    </div>
+
+    <!-------Contact Design Code----->
+    <div class="Father" id="contact">
+        <div class="Son">
+            <h1>Contact Me</h1>
+            <ol>
+                <li><i class="bi bi-envelope"></i> anilsoren201@gmail.com</li>
+                <li><i class="bi bi-telephone"></i> +91 7717782211</li>
+            </ol>
+            <div class="Icon">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-youtube"></i>
+            </div>
+            <a href="file/MyResume.pdf" id="btn">
+                <button>Download CV</button>
+            </a>
+        </div>
+        <div class="Son">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <textarea name="" placeholder="Your Message" rows="5" id=""></textarea>
+            <button>Submit</button>
+        </div>
+    </div>
+    <!------Footer Design Code-->
+    <div class="Footer">
+        <h3>@2024 All Rights Reserve by <span>Anil Soren.</span></h3>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
